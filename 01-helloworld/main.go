@@ -7,14 +7,17 @@ func main() {
 
 	foo()
 
-	for i := 0; i < 100; i++ {
-		if i%2 == 0 {
-			fmt.Println("짝수 %d", i)
-		}
-	}
+	//for i := 0; i < 100; i++ {
+	//	if i%2 == 0 {
+	//		fmt.Println("짝수 %d", i)
+	//	}
+	//}
 
 	bar()
 
+	n, err := fmt.Println("12345")
+
+	fmt.Println(n, err)
 }
 
 func bar() {
