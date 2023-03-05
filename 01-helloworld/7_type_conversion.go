@@ -26,4 +26,5 @@ func main() {
 	fmt.Println(f)
 	fmt.Println(f + ff + .5)
 	fmt.Println(int(f + ff + .5))
+
 }
