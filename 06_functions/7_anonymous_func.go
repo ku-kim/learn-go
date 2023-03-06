@@ -13,6 +13,7 @@ func main() {
 		fmt.Println("Anonymous Func ran", x)
 	}(42)
 
+	// func expression
 	f := func(str string) {
 		fmt.Println("Anonymous Func ran", str)
 	}
