@@ -15,6 +15,11 @@ func main() {
 
 	y := x // value copy
 	fmt.Println(y)
-	y[0] = 44
+	y[0] = 444
 	fmt.Println(y, x) // 서로 다름
+
+	yy := x[:] // pointer copy
+	fmt.Println(yy)
+	yy[4] = 999
+	fmt.Println(yy, x) // 서로 다름
 }
